@@ -1,7 +1,7 @@
 # SimplamDailogs
 
 
-Start:
+Start add:
 allprojects {
 		repositories {
 			...
@@ -10,7 +10,7 @@ allprojects {
 	}
    
    dependencies {
-	        implementation 'com.github.pamujsharma1:SimplamDailogs:1.0.1'
+	        implementation 'com.github.pamujsharma1:SimplamDailogs:1.0.2'
 	}
 
 
