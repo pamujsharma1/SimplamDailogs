@@ -1,5 +1,21 @@
 # SimplamDailogs
 
+
+Start:
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+   
+   dependencies {
+	        implementation 'com.github.pamujsharma1:SimplamDailogs:1.0.1'
+	}
+
+
+
+
 /*
     * there is OKDialog,DateDialog,TimeDialog,ListDialog & OkCancelDialog
     * Please call There dialog classes and you will find all methords
